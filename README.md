@@ -10,22 +10,22 @@ To import tables into SQL database,
 To analyze and build a visual data story/dashboard using power BI to answer the following business questions and present it to the stakeholders;
 1. Is the hotel revenue growing by year?
 
-2. Should the holtels increase their parking lot size? They want to understand if there is a trend with guest with personal cars.
+2. Should the hotels increase their parking lot size? They want to understand if there is a trend with guest with personal cars.
 
-3. what trends can we see in the data? focus on average daily rate and guests to explore seasonality
+3. What trends can we see in the data? focus on average daily rate and guests to explore seasonality
 
 
 Tools Used: SQL (Microsoft SQL Server Management Studio with Azure Data Studio), and Power BI (DAX, Power Query, and Power BI Service) Goal:
 
 
-DATA ANALYSIS PROJECT PIPELINE
+DATA ANALYSIS PROJECT 
 1. Build a Database
 
 SQL Server was established using Microsoft SQL server 16, The project database was created under the localhost SQL server. Importation of the dataset into the database; the excel file was imported into the database. the file consists of five excel sheets, namely; 2018, 2019, 2020, market segment, and meal cost.
 
 2. Develop SQL Query
 
-Used Union SQL query to develop the data 2018, 2019, and 2020 into a unified single table. After the data merging, got a total of 100,756 rows with 32 columns. Used SQL Queries to answer this question; Is the hotel revenue growing? To answer the bsuiness question using SQL query, needed to create a revenue column. Created a new column for revenue; with the formular; (stays_in_weekend_nights+stays_in_week_nights)*adr (daily rate)
+Used Union SQL query to develop the data 2018, 2019, and 2020 into a unified single table. After the data merging, got a total of 100,756 rows with 32 columns. Used SQL Queries to answer this question; Is the hotel revenue growing? To answer the business question using SQL query, needed to create a revenue column. Created a new column for revenue; with the formular; (stays_in_weekend_nights+stays_in_week_nights)*adr (daily rate)
 
 Selected revenue with hotels and grouped by the years.
 
@@ -43,7 +43,7 @@ Added data via SQL server, copied the SQL queries used to join the sheets, and m
 
 4. Data transformation and manipulation.
 
-Did data cleaning and transformation in Power Query. By changing datatypes where necessary, and dropping of dulplicated columns. Also, added a custom column for the hotels revenue. Craeted measures for total nights, discount percentage.
+Did data cleaning and transformation in Power Query. By changing datatypes where necessary, and dropping of dulplicated columns. Also, added a custom column for the hotels revenue. Created measures for total nights, discount percentage.
 
 Link to Dashboard
 
@@ -52,7 +52,8 @@ Link to Dashboard
 
 
 
-<img width="" alt="Dashboard" src="https://github.com/BenDatta/Hotel-Revenue-Mysql-PowerBi/assets/135694513/7ffadce5-5630-4f5f-9b8c-8f5d7c1388ec">
+
+<img width="700" alt="image" src="https://github.com/BenDatta/Hotel-Revenue-MySQL-PowerBi/assets/135694513/948a4dd2-b892-4b54-ae02-8145e9a1db42">
 
 
 
