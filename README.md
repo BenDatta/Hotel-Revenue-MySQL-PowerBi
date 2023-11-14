@@ -53,7 +53,8 @@ Link to Dashboard
 
 
 
-<img width="700" alt="image" src="https://github.com/BenDatta/Hotel-Revenue-MySQL-PowerBi/assets/135694513/948a4dd2-b892-4b54-ae02-8145e9a1db42">
+<img width="700" alt="Hotel Revenue" src="https://github.com/BenDatta/Hotel-Revenue-MySQL-PowerBi/assets/135694513/f5089cbd-2274-4835-83fb-3d05239aa965">
+
 
 
 
